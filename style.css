@@ -1,9 +1,9 @@
 /* en vrac :
-100% 100% 100% 0 auto border-box box-sizing 
-display height flex flex none margin 
-max-width width width
+100% 100%   border-box box-sizing 
+display flex flex none 
+max-width width
 */
-  {
+{
     /* change le box model */
     }
 img {
@@ -23,4 +23,5 @@ img {
 }
 .carrousel_ecran figure {
       /* enlève les marges par défaut */
+      margin: 0;
 }
