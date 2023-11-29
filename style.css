@@ -21,6 +21,7 @@ img {
     width: 100%;
     overflow-x: scroll; /* permet de scroller horizontalement */
     scroll-behavior: smooth; /* permet d'avoir un scroll fluide */
+    scroll-snap-type: x mandatory;
     
 }
 .carrousel_ecran {
