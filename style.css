@@ -8,7 +8,7 @@ display  flex none
     /* change le box model */
 }
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
       /* image responsive, largeur maxi */
       /* hauteur "auto" */
@@ -20,13 +20,14 @@ img {
       /* largeur du parent */
     width: 100%;
     overflow-x: scroll; /* permet de scroller horizontalement */
+    scroll-behavior: smooth; /* permet d'avoir un scroll fluide */
     
 }
 .carrousel_ecran {
       /* largeur du parent pour chaque enfant */
         width: 100%;
       /* permet de garder toute la largeur du parent */
-        flex: 100%;
+        flex: none;
 
       
 }
