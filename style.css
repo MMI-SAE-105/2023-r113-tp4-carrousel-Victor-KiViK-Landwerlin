@@ -81,5 +81,18 @@ justify-content list-style margin none padding
 }
 
 .actif{
-  color: red;
+  color: supercouleur;
+}
+
+@keyframes supercouleur{
+  from, to {color:magenta}
+  10% {color:red}
+  20% {color:brown}
+  30% {color:orange}
+  40% {color:yellow}
+  50% {color:green}
+  60% {color:cyan}
+  70% {color:blue}
+  80% {color:indigo}
+  90% {color:violet}
 }
