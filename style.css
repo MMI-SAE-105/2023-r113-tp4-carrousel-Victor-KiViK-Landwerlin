@@ -79,3 +79,7 @@ justify-content list-style margin none padding
   list-style: none; /* enlève les puces par défaut */
   gap: 1rem;/* espace entre les enfants */
 }
+
+.actif{
+  color: red;
+}
