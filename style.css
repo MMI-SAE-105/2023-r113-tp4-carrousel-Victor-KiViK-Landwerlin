@@ -143,4 +143,6 @@ justify-content list-style margin none padding
   font-size: 1.5rem;
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
-
+body{
+  background-image:url(fond.png);
+}
